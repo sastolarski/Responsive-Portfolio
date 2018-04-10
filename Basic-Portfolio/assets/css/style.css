@@ -1,0 +1,317 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    background-image: url(images/dust_scratches/dust_scratches.png);
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.hFont {
+    font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h1 {
+    font-size: 32px;
+    background-color: #4aaaa5;
+    color: white;
+    margin: auto;
+    width: 280px;
+    padding: 35px;
+    text-align: center;
+    float: left;
+    display: inline; 
+    margin-left: 60px;
+    font-weight: bolder;
+
+}
+
+h2 {
+    color: #4aaaa5;
+    font-size: 28px;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 20px;
+}
+
+.topnav {
+    overflow: hidden;
+    background-color:rgb(68, 68, 68);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+li {
+    display: inline;
+    
+}
+
+li a {
+    float: right;
+    display: block;
+    color: rgb(163, 163, 163);
+    text-align: center;
+    padding: 25px 12px;
+    text-decoration: none;
+    font-size: 18px;
+    margin-right: 50px;
+    margin-top: 16px;
+    
+}
+
+li a:hover {
+    color: #4aaaa5;
+}
+
+li a:active {
+    color: #4aaaa5;
+}
+
+.portrait {
+    float: left;
+    padding: 20px;
+    height: 400px;
+}
+
+section {
+    /* margin: 30px; */
+    border: 2px solid rgb(68, 68, 68);
+    width: 960px;
+    padding: 20px;
+    background-color: #ffffff;
+    align-self: center;
+}
+
+.content {
+    flex: 1 0 auto;
+    
+  }
+
+.contactInfo {
+    margin: 100px;
+}
+
+.portfolioInfo {
+    margin: 100px;
+}
+
+.aboutMe {
+    align-self: center;
+    margin: 100px;
+    
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(68, 68, 68);
+    color: rgb(163, 163, 163);
+    margin-top: 20px;
+    border-top-style: solid;
+    border-color: #4aaaa5;
+    border-width: 8px;
+    height: 40px;
+    flex-shrink: 0;
+    position: relative;
+    margin-bottom: 0;
+    width:100%;
+}
+
+p {
+    line-height: 1.5em;
+    margin: 12px 30px;
+}
+
+input[type=text]:focus {
+    border: 3px solid rgb(68, 68, 68);
+}
+
+input[type=email]:focus {
+    border: 3px solid rgb(68, 68, 68);
+}
+
+textarea:focus {
+    border: 3px solid rgb(68, 68, 68);
+}
+
+input {
+    font-size: 16px;
+    text-align: left;
+    
+}
+
+textarea {
+    font-size: 16px;
+    text-align: left;
+}
+
+.nameInput {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+}
+
+.emailInput {
+    margin-top: 30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+}
+
+.messageInput {
+    margin-top: 30px;
+    margin-bottom:30px;
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    height: 150px;
+    display: inline-block;
+    border: .5px solid rgb(163, 163, 163);
+    box-sizing: border-box;
+    
+}
+
+.submit {
+    width: 15%;
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 12px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.submit:hover {
+    background-color: #337e7a
+}
+
+.portfolioImages {
+    margin: 30px;
+}
+
+.project1 {
+    margin: 30px;
+
+}
+
+.project2 {
+    margin: 30px;
+}
+
+.project3 {
+    margin: 30px;
+}
+
+.project4 {
+    margin: 30px;
+}
+
+.project5 {
+    margin: 30px;
+}
+
+.project6 {
+    margin: 30px;
+}
+
+/* portfolio page 2 styles.  trying to use grid instead */
+
+.portfolioGrid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    grid-gap: 20px;
+    margin: 30px;
+    padding: 20px;
+    justify-content: space-evenly;
+    
+  }
+
+  .grid1 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+  .grid2 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grid3 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grid4 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grid5 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .grid6 {
+    background-color: rgb(68, 68, 68);
+    text-align: center;
+    padding: 20px 0;
+    font-size: 30px;
+    height: 200px;
+    width: 200px;
+  }
+
+  .link1 {
+      color: #4aaaa5;
+      text-decoration: none;
+      border: none;
+      border-radius: 5px;
+      padding: 2px;
+     
+  }
+
+  .link1:hover {
+      background-color: #4aaaa5;
+      color: white;
+  }
