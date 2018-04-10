@@ -84,6 +84,7 @@ li a:active {
 
 .portrait {
     float: left;
+    
     padding: 20px;
     height: 400px;
 }
@@ -314,4 +315,89 @@ textarea {
   .link1:hover {
       background-color: #4aaaa5;
       color: white;
+  }
+
+  @media screen and (max-width: 980px) {
+      
+    section {
+        width: 70%;
+    }
+
+    h1 {
+        font-size: 22px;
+        width: 180px;
+    }
+
+    .topnav {
+        width: 100%;
+    }
+
+    li a {
+        margin-top: 37px;
+        padding: .5em;
+    }
+
+    .portfolioGrid {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 20px;
+        margin: 20px;
+        padding: 20px;
+        justify-content: space-evenly;
+    }
+  
+  }
+
+  @media screen and (max-width: 768px) {
+    h1 {
+        font-size: 16px;
+        width: 100px;
+    }
+
+    li a {
+        padding: .2em;
+        font-size: 12px;
+    }
+
+  
+    
+  }
+
+  @media screen and (max-width: 640px) {
+      h1 {
+          width: 90%;
+          margin-left: 15px;
+          margin-right: 100px;
+          margin-top: 15px; 
+          font-size: 32px;
+          padding-right: 100px;
+          background-color: rgb(68, 68, 68);
+          color: #4aaaa5;
+          text-align: left;
+          
+      }
+
+      li a {
+        font-size: .8em;
+        margin-bottom: 10px;
+        
+      }
+
+      section {
+          width: 80%;
+          margin-top: 50px;
+      }
+
+      .portrait {
+          margin-right: 10px;
+      }
+
+      .portfolioGrid {
+          grid-template-columns: auto;
+      }
+
+      .submit {
+          width: 50%;
+      }
+    
   }
