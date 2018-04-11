@@ -1,2 +1,1 @@
-# Responsive-Portfolio
-adding responsiveness to basic portfolio
+# Basic-Portfolio
